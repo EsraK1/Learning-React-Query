@@ -1,6 +1,5 @@
-
 <h1 align="center">Come along with me while I learn React query </h1>
-
+<br>
 <p align="center">
  <img src= '/Images/React_Query_Logo.png'/>
 
@@ -10,4 +9,10 @@
  </h2>
 </p>
 
+<br>
+<h3 align="center">By completing section 1 and 2 of the course, I have learnt about: fetching data, loading state, error state, staleTime, cacheTime, query keys, pagination, pre-fetching data, isLoading, isFetching, mutations , updating/ deleting with useMutation and I also had the opportuniy to use react query dev tools.
+</h3>
 
+<br>
+<h3 align="center"> Have a look at the App.jsx, Posts.jsx and PostDetail.jsx inside the base-blog-em folder to see how I impleted different concepts.
+</h3>

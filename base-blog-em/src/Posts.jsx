@@ -33,7 +33,7 @@ export function Posts() {
   // When the currentPage changes, react query will update the data 👇
   const {data, isError, error, isLoading} = useQuery(['posts', currentPage], () => fetchPosts(currentPage), {staleTime: 2000, keepPreviousData: true });
   if (isLoading) return <h3 >Loading ...</h3>
-  if (isError) return <> <h3> Bir sorun oldu knk</h3> <p>{error.toString()}</p> </>
+  if (isError) return <> <h3> Error loading the page </h3> <p>{error.toString()}</p> </>
   return (
     <>
       <ul>
