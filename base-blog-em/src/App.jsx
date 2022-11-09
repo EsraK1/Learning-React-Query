@@ -17,7 +17,7 @@ function App() {
     </div>
     <ReactQueryDevtools/>
     </QueryClientProvider>
-  );
+  ); 
 }
 
 export default App;
