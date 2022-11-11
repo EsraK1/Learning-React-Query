@@ -16,3 +16,13 @@
 <br>
 <h3 align="center"> Have a look at the App.jsx, Posts.jsx and PostDetail.jsx inside the base-blog-em folder to see how I impleted different concepts.
 </h3>
+
+<p align="center">
+<h4>Project 1 </h4>
+ <img src= '/Images/Project_1_screenshot.png'/>
+<h2 align="center">
+
+<p align="center">
+<h4>Project 2 </h4>
+ <img src= '/Images/Project_2_screenshot.png'/>
+<h2 align="center">
