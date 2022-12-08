@@ -72,7 +72,7 @@ export function useAppointments(): UseAppointments {
   //       monthYear.month
   const appointments = {};
 
-  /** ****************** END 3: useQuery  ******************************* */
+  /** ****************** END 3: useQuery  ******************************** */
 
   return { appointments, monthYear, updateMonthYear, showAll, setShowAll };
 }
