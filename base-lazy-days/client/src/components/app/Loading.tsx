@@ -3,10 +3,8 @@ import { ReactElement } from 'react';
 import { useIsFetching } from 'react-query';
 
 export function Loading(): ReactElement {
-  // will use React Query `useIsFetching` to determine whether or not to display
-  const isFetching = useIsFetching(); // returns an integer representing the number of query calls that are currently in the fetching state
+  const isFetching = useIsFetching();
 
-  // if is fetching is greater than 0 it will evaluate to truthy and will therefore 'inherit' which means that the loading spinner will show
   const display = isFetching ? 'inherit' : 'none';
 
   return (
