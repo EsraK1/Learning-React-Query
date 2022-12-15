@@ -1,4 +1,5 @@
 import { useQuery } from 'react-query';
+import { queryKeys } from 'react-query/constants';
 
 import type { Appointment, User } from '../../../../../shared/types';
 import { axiosInstance, getJWTHeader } from '../../../axiosInstance';
@@ -20,7 +21,7 @@ export function useUserAppointments(): Appointment[] {
   const { user } = useUser();
   const fallback: Appointment[] = [];
   const { data: userAppointments = fallback } = useQuery(
-    'user-appointments',
+    [queryKeys.appointments, queryKeys.user, user?.id],
     () => getUserAppointments(user),
     { enabled: !!user },
   );
